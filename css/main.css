@@ -1,0 +1,14 @@
+body {
+    background: #ddd;
+}
+#wrapper {
+    text-align: center;
+    
+}
+#title {
+    margin-top:50px;
+}
+input {
+    border-radius:5px;
+}
+
