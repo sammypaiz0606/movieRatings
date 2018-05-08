@@ -12,18 +12,20 @@
     
 <body>
     <div id='wrapper'>
-        <h1 id='title'>Type in a film name and select a star ratin</h1>
-        <input type='text' />
-        <select>
-            <option>1 star</option>
-            <option>2 star</option>
-            <option>3 star</option>
-            <option>4 star</option>
-            <option>5 star</option>
+        <h1 id='title'>Type in a film name and select a star ratings</h1>
+        <input id='film' type='text' />
+        <select id='rating'>
+            <option value='1'>1 star</option>
+            <option value='2'>2 star</option>
+            <option value='3'>3 star</option>
+            <option value='4'>4 star</option>
+            <option value='5'>5 star</option>
 
         </select>
     </div>
-    
+    <div class='container'>
+        <div class='' id='rating-list'></div>
+    </div>
 <script
   src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="

@@ -1,5 +1,5 @@
 body {
-    background: #ddd;
+    background: #222d;
 }
 #wrapper {
     text-align: center;
@@ -7,8 +7,13 @@ body {
 }
 #title {
     margin-top:50px;
+    color:#ddd
 }
-input {
+input, select {
     border-radius:5px;
+    border:1px solid #000;
+}
+#rating-list > div {
+    border:3px solid white;
 }
 
